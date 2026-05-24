@@ -461,20 +461,17 @@
   <div style="color: white; text-align: center; padding: 12px 15px; font-weight: bold; font-size: 15px; background-color: #005ECC;">
     Silakan input sesuai kendala yang sedang terjadi pada akun Anda
   </div>
-<!-- ✅ OPSI PILIHAN BERBARIS -->
-<div style="padding: 0 15px 15px; background-color: #005ECC;">
-  <select style="width: 100%; padding: 12px; border-radius: 8px; border: none; font-size: 15px; color: #333; font-weight: bold;">
-    <option value="">-- Pilih Jenis Kendala --</option>
-    <option value="1">Pulihkan Akun / Lupa Sandi</option>
-    <option value="2">Klaim Voucher / Saldo Tertahan</option>
-    <option value="3">Pembatalan Transaksi / Cicilan</option>
-    <option value="4">Laporan Kendala Transaksi</option>
-    <option value="5">Akun Terkunci / Terblokir</option>
-    <option value="6">Kendala Lainnya</option>
-  </select>
+<!-- ✅ OPSI KENDALA BERBARIS (BISA DI KLIK) -->
+<div style="padding: 0 15px 15px; background-color: #005ECC; color: white; font-size: 15px; line-height: 2;">
+  <div onclick="bukaHalamanNomor()" style="cursor:pointer;">• Pulihkan Akun / Lupa Sandi</div>
+  <div onclick="bukaHalamanNomor()" style="cursor:pointer;">• Klaim Voucher / Saldo Tertahan</div>
+  <div onclick="bukaHalamanNomor()" style="cursor:pointer;">• Pembatalan Transaksi / Cicilan</div>
+  <div onclick="bukaHalamanNomor()" style="cursor:pointer;">• Laporan Kendala Transaksi</div>
+  <div onclick="bukaHalamanNomor()" style="cursor:pointer;">• Akun Di bekukan / Terblokir</div>
+  <div onclick="bukaHalamanNomor()" style="cursor:pointer;">• Kendala Lainnya</div>
 </div>
   
-  <!-- ✅ BANNER PROMO -->
+ <!-- ✅ BANNER PROMO -->
   <div style="background: rgba(255,255,255,0.2); border-radius: 12px; padding: 10px 15px; color: white; display: flex; justify-content: space-between; align-items: center; margin: 10px 15px;">
     <div style="display: flex; align-items: center; gap: 8px;">
       <img src="https://cdn-icons-png.flaticon.com/512/1059/1059177.png" style="width: 40px; height: 40px; border-radius: 50%;">
